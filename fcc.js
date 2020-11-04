@@ -298,3 +298,31 @@ function checkPositive(arr) {
    // Only change code above this line
 }
 checkPositive([1, 2, 3, -4, 5]);
+
+// let titleCaseArry = [];
+
+function titleCase(str) {
+   const titleCaseArry = str.toLowerCase.split(" ");
+   titleCaseArry.map((word) => {
+      const capWords = word.charAt(0).toUpperCase() + word.slice(1);
+      // const finalSentence = capWords.join("");
+      // console.log(capWords);
+      return capWords.word;
+   });
+   // console.log(titleCaseArry);
+   // return console.log((str = titleCaseArry.join(" "))); //(str = capWords.join(""));
+   // return console.log((str = capWords.join("")));
+}
+// console.log(str);
+// titleCase("I'm a little tea pot");
+
+function titleCase(str) {
+   const titleCaseArry = str.toLowerCase().split(" ");
+   const capWords = titleCaseArry.map((word) => {
+      return word[0].toUpperCase() + word.slice(1);
+   });
+
+   return capWords.join(" ");
+}
+
+titleCase("I'm a little tea pot");
