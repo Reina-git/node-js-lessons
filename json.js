@@ -33,7 +33,7 @@ const userAsObj = JSON.parse(userAsJson);
 // console.log(userAsObj);
 
 newUser = deepCopy(user); // deep copy, losing all previous references
-// console.log(user);
+console.log(newUser);
 if (newUser !== undefined) {
    newUser.socialProfiles[indexOfFacebook].image.large = "large3.jpg";
    console.log("-----------------");

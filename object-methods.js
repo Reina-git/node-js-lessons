@@ -11,13 +11,13 @@ const memoryCard = {
 };
 
 const keys = Object.keys(memoryCard);
-// console.log(keys);
+console.log(keys);
 
 const values = Object.values(memoryCard);
 // console.log(values);
 
 const hasAnswerProp = memoryCard.hasOwnProperty("answer");
-console.log(hasAnswerProp);
+// console.log(hasAnswerProp);
 
 const hasFirstNameProp = memoryCard.hasOwnProperty("firstName");
-console.log(hasFirstNameProp);
+// console.log(hasFirstNameProp);
