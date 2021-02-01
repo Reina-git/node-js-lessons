@@ -51,8 +51,9 @@ for (let h = 0; h < customerFavoriteToppings.length; h++) {
       }
    }
 }
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 
-console.log(JSON.stringify(recommendations));
+console.log(JSON.stringify(recommendations, null, 3));
 // console.log(customerFavoriteToppings);
 // const favoriteToppings = customer.favoriteToppings;
 
