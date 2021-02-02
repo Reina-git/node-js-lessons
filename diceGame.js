@@ -5,7 +5,7 @@ const generateDiceNumber = () => {
 const maxTotal = 101;
 let diceTotal = 0;
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i <= 6; i++) {
    if (diceTotal < maxTotal - 6) {
       let diceRoll = generateDiceNumber();
       console.log("diceRoll", diceRoll);
